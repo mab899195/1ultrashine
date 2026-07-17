@@ -28,6 +28,21 @@ export const metadata: Metadata = {
     title: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
     description:
       "30+ years of hand-finished auto detailing on Route 66, Glendora. Interior, exterior, paint correction & more. Satisfaction guaranteed.",
+    images: [
+      {
+        url: "/hero-poster.jpg",
+        width: 1280,
+        height: 720,
+        alt: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
+    description:
+      "30+ years of hand-finished auto detailing on Route 66, Glendora. Interior, exterior, paint correction & more.",
+    images: ["/hero-poster.jpg"],
   },
 };
 
