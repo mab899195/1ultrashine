@@ -1,26 +1,126 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #050508;
+  --foreground: #f2f5f9;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: #050508;
+  --color-panel: #0b0d14;
+  --color-blue: #1565f5;
+  --color-blue-lt: #7fa8ff;
+  --color-grey: #94a3b8;
+  --font-head: var(--font-barlow);
+  --font-body: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Polished-chrome headline treatment, matching the logo lettering */
+.metallic-text {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #e9eef6 38%,
+    #9fb0c7 52%,
+    #e3eaf3 66%,
+    #8fa2bd 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Signature: a specular gleam sweeping across chrome text, like light
+   passing over freshly polished paint. Layered gradient clipped to the
+   glyphs; only background-position animates. */
+.metallic-shine {
+  background:
+    linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0) 42%,
+        rgba(255, 255, 255, 0.95) 50%,
+        rgba(255, 255, 255, 0) 58%
+      )
+      no-repeat,
+    linear-gradient(
+      180deg,
+      #ffffff 0%,
+      #e9eef6 38%,
+      #9fb0c7 52%,
+      #e3eaf3 66%,
+      #8fa2bd 100%
+    );
+  background-size:
+    260% 100%,
+    100% 100%;
+  background-position:
+    -160% 0,
+    0 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: text-sweep 7s ease-in-out 1.6s infinite;
+}
+
+@keyframes text-sweep {
+  0% {
+    background-position:
+      -160% 0,
+      0 0;
+  }
+  32% {
+    background-position:
+      260% 0,
+      0 0;
+  }
+  100% {
+    background-position:
+      260% 0,
+      0 0;
+  }
+}
+
+/* Box version of the sweep for cards, on hover */
+.card-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.card-sweep::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.08) 50%,
+    transparent 60%
+  );
+  transform: translateX(-130%) skewX(-8deg);
+  transition: transform 0.9s ease;
+  pointer-events: none;
+}
+.card-sweep:hover::after {
+  transform: translateX(130%) skewX(-8deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .metallic-shine {
+    animation: none;
+  }
+  .card-sweep::after {
+    display: none;
+  }
 }
