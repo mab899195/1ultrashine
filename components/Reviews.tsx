@@ -28,7 +28,7 @@ function Stars() {
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="scroll-mt-20 py-24">
+    <section id="reviews" className="scroll-mt-20 pb-24 pt-8">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Reviews"

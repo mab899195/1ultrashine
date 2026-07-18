@@ -6,7 +6,7 @@ import { BUSINESS } from "@/lib/content";
 const TRUST = [
   { value: "4.6★", label: `${BUSINESS.reviewCount} Google reviews` },
   { value: "Since 1995", label: "family-run on Route 66" },
-  { value: "Hand-finished", label: "no tunnels, no shortcuts" },
+  { value: "Hand-finished", label: "no shortcuts" },
   { value: "Guaranteed", label: "satisfaction, every visit" },
 ];
 
@@ -95,7 +95,7 @@ export default function Hero() {
             href="#services"
             className="rounded-full border border-white/25 px-8 py-4 text-base font-semibold text-white/90 backdrop-blur transition hover:border-white/60 hover:text-white"
           >
-            See services & pricing
+            See our services
           </a>
         </motion.div>
       </div>

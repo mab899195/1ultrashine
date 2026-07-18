@@ -6,7 +6,7 @@ import SectionHeading from "./SectionHeading";
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-20 bg-panel py-24">
+    <section id="contact" className="scroll-mt-20 bg-panel pb-24 pt-8">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Contact"

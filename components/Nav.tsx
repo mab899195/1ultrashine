@@ -5,10 +5,10 @@ import Image from "next/image";
 import { BUSINESS } from "@/lib/content";
 
 const LINKS = [
-  { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "Contact", href: "#contact" },
+  { label: "Services", href: "/#services" },
+  { label: "Why Us", href: "/#why-us" },
+  { label: "Reviews", href: "/#reviews" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Nav() {
@@ -30,7 +30,7 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex h-18 max-w-6xl items-center justify-between px-5 sm:px-8">
-        <a href="#top" aria-label="1 Ultra Shine — back to top">
+        <a href="/" aria-label="1 Ultra Shine — homepage">
           <Image
             src="/logo-transparent.png"
             alt="1 Ultra Shine Detail"

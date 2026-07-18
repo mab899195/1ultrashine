@@ -47,7 +47,7 @@ const STATS = [
 
 export default function WhyUs() {
   return (
-    <section id="why-us" className="scroll-mt-20 bg-panel py-24">
+    <section id="why-us" className="scroll-mt-20 bg-panel pb-24 pt-8">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="Why 1 Ultra Shine"
