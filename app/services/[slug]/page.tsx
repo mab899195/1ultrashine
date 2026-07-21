@@ -140,6 +140,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 ))}
               </ul>
 
+              <div className="mt-4 flex items-start gap-2 rounded-xl border border-amber-400/30 bg-amber-400/10 px-4 py-3">
+                <span className="mt-0.5 text-amber-400">🏷️</span>
+                <p className="text-sm text-amber-300">
+                  Car wash members save 20% on any detail service.
+                </p>
+              </div>
+
               <p className="mt-4 text-xs text-grey/70">
                 Final price depends on vehicle condition. Call for an exact quote.
               </p>

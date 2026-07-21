@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS.url),
   title: "Premium Auto Detailing in Glendora, CA | 1 Ultra Shine",
   description:
-    "30+ years of premium auto detailing in Glendora, CA. Interior refresh, full detail, paint correction, pet hair removal & more. Hand-finished. Satisfaction guaranteed. Call (626) 629-4916.",
+    "30+ years of premium auto detailing in Glendora, CA. Interior refresh, full detail, paint correction, pet hair removal & more. Hand-finished. Satisfaction guaranteed. Call (626) 963-2600.",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   openGraph: {
