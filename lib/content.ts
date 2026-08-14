@@ -13,7 +13,7 @@ export const BUSINESS = {
   rating: 4.6,
   reviewCount: 381,
   founded: 1995,
-  url: "https://www.1ultrashine.com",
+  url: "https://www.1ultrashinedetail.com",
 };
 
 export type ServiceFeature = {
