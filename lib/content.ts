@@ -1,9 +1,9 @@
 export const BUSINESS = {
-  name: "1 Ultra Shine",
-  legalName: "Number One Ultra Shine",
+  name: "1 Ultra Shine Detail",
+  legalName: "1 Ultra Shine Detail",
   phone: "(626) 963-2600",
   phoneHref: "tel:+16269632600",
-  email: "1ultrashine@gmail.com",
+  email: "1ultrashinedetail@gmail.com",
   emailHref: "mailto:1ultrashine@gmail.com",
   address: "525 E Route 66, Glendora, CA 91740",
   mapsEmbed:
