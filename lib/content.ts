@@ -52,6 +52,8 @@ export const SERVICES: Service[] = [
   {
     name: "Interior Refresh",
     slug: "interior-refresh",
+    seoTitle: "Interior Car Detailing in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Refresh your car's interior with vacuuming, surface cleaning, leather care, vent cleaning and steam disinfection in Glendora, CA.",
     tagline: "Vacuum, full wipe-down, windows — your cabin, reset.",
     headline: "A clean interior. A better drive.",
     image: "/photo-interior-refresh.jpg",
@@ -94,6 +96,8 @@ export const SERVICES: Service[] = [
   {
     name: "Interior Detail",
     slug: "interior-detail",
+    seoTitle: "Interior Car Detail in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Deep interior car detailing in Glendora, CA with carpet and seat extraction, shampooing, steam cleaning and detailed surface care.",
     tagline: "Deep clean with shampoo and steam, down to every crevice.",
     headline: "Maximum protection. Unmatched shine.",
     image: "/photo-interior-detail.jpg",
@@ -118,6 +122,8 @@ export const SERVICES: Service[] = [
   {
     name: "Exterior Detail",
     slug: "exterior-detail",
+    seoTitle: "Exterior Car Detailing in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription: "Professional exterior car detailing in Glendora, CA with hand washing, clay bar treatment, wax protection, wheel cleaning and more.",
     tagline: "Hand wash, clay bar, machine polish, and protection.",
     headline: "Restore. Protect. Turn heads.",
     image: "/photo-exterior-detail.jpg",
@@ -170,6 +176,8 @@ export const SERVICES: Service[] = [
   {
     name: "Full Detail",
     slug: "full-detail",
+    seoTitle: "Full Car Detailing in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Complete interior and exterior car detailing in Glendora, CA. Deep interior cleaning, clay bar treatment, wax protection and more.",
     tagline: "The complete inside-and-out treatment, hand-finished.",
     headline: "The ultimate in care. Inside and out.",
     image: "/photo-full-detail.jpg",
@@ -194,6 +202,8 @@ export const SERVICES: Service[] = [
   {
     name: "Paint Correction",
     slug: "paint-correction",
+    seoTitle: "Paint Correction in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Restore your vehicle's finish with professional paint correction in Glendora, CA. Reduce swirls, scratches, oxidation and paint imperfections.",
     tagline: "Swirls and scratches machine-polished out of your paint.",
     headline: "Maximum correction. Flawless finish.",
     image: "/photo-paint-correction.jpg",
@@ -226,6 +236,8 @@ export const SERVICES: Service[] = [
   {
     name: "Bug Wash",
     slug: "bug-wash",
+    seoTitle: "Car Bug Removal in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Remove stubborn bugs, tar and road film with professional car bug removal in Glendora, CA. Restore a clean, smooth finish and protect your paint.",
     tagline: "Bugs, tar, and road film off your front end.",
     headline: "The hard truth about bugs on your paint.",
     image: "/photo-bug-wash.jpg",
@@ -241,6 +253,8 @@ export const SERVICES: Service[] = [
   {
     name: "Pet Hair Removal",
     slug: "pet-hair-removal",
+    seoTitle: "Pet Hair Removal for Cars in Glendora, CA | 1 Ultra Shine Detail",
+    seoDescription:"Professional pet hair removal for cars in Glendora, CA. Deep cleaning for stubborn fur embedded in seats and interior fabrics.",
     tagline: "Deep extraction for even the most stubborn fur.",
     headline: "Because we know how hard it really is.",
     image: "/photo-pet-hair-removal.jpg",
