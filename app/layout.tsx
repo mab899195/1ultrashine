@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "AutoBodyShop",
+  "@type": "LocalBusiness",
   name: BUSINESS.name,
   alternateName: BUSINESS.legalName,
   url: BUSINESS.url,
