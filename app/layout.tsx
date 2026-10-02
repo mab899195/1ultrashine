@@ -16,7 +16,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS.url),
-  title: "Premium Auto Detailing in Glendora, CA | 1 Ultra Shine",
+  title: "Premium Auto Detailing in Glendora, CA | 1 Ultra Shine Detail",
   description:
     "30+ years of premium auto detailing in Glendora, CA. Interior refresh, full detail, paint correction, pet hair removal & more. Hand-finished. Satisfaction guaranteed. Call (626) 963-2600.",
   alternates: { canonical: "/" },
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    siteName: "1 Ultra Shine",
-    title: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
+    siteName: "1 Ultra Shine Detail",
+    title: "1 Ultra Shine Detail — Premium Auto Detailing in Glendora, CA",
     description:
       "30+ years of hand-finished auto detailing on Route 66, Glendora. Interior, exterior, paint correction & more. Satisfaction guaranteed.",
     images: [
@@ -33,13 +33,13 @@ export const metadata: Metadata = {
         url: "/hero-poster.jpg",
         width: 1280,
         height: 720,
-        alt: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
+        alt: "1 Ultra Shine Detail — Premium Auto Detailing in Glendora, CA",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "1 Ultra Shine — Premium Auto Detailing in Glendora, CA",
+    title: "1 Ultra Shine Detail — Premium Auto Detailing in Glendora, CA",
     description:
       "30+ years of hand-finished auto detailing on Route 66, Glendora. Interior, exterior, paint correction & more.",
     images: ["/hero-poster.jpg"],
