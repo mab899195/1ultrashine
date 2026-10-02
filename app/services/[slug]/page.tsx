@@ -9,13 +9,19 @@ export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const service = SERVICES.find((s) => s.slug === slug);
+
   if (!service) return {};
+
   return {
-    title: `${service.name} | 1 Ultra Shine — Glendora, CA`,
-    description: service.description ?? service.tagline,
+    title: service.seoTitle,
+    description: service.seoDescription,
   };
 }
 
