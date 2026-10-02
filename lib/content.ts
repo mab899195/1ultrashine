@@ -4,7 +4,7 @@ export const BUSINESS = {
   phone: "(626) 963-2600",
   phoneHref: "tel:+16269632600",
   email: "1ultrashinedetail@gmail.com",
-  emailHref: "mailto:1ultrashine@gmail.com",
+  emailHref: "mailto:1ultrashinedetail@gmail.com",
   address: "525 E Route 66, Glendora, CA 91740",
   mapsEmbed:
     "https://www.google.com/maps?q=525+E+Route+66,+Glendora,+CA+91740&output=embed",
