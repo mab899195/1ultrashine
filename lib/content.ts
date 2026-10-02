@@ -33,6 +33,8 @@ export type Service = {
   slug: string;
   tagline: string;
   image: string;
+  seoTitle: string;
+  seoDescription: string;
   popular?: boolean;
   /** Short hero sub-headline pulled from the flyer */
   headline?: string;
